@@ -1,13 +1,14 @@
 # QLWaveForm
-A QuickLook plugin that lets you view waveforms of audio files
 
 by Takuho Yoshizu
+
+![](preview-sample.png)
 
 Introduction
 ------------
 
 QLWaveForm is a simple QuickLook generator for autio files.
-It renders apreview of the waveform of the selected audio file.
+It renders a preview of the waveform of the selected audio file.
 
 Installation
 ------------
