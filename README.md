@@ -15,6 +15,14 @@ Installation
 
 Simply copy QLWaveForm.qlgenerator to `~/Library/QuickLook` or `/Library/QuickLook`.
 
+If you run into issues with macOS not letting you run the plugin because it's not signed by a verified developer you can follow these steps:
+
+```
+$ xattr -cr ~/Library/QuickLook/QLWaveForm.qlgenerator
+$ qlmanage -r
+$ qlmanage -r cache
+```
+
 If the newly installed plugin is not picked up instantly, you can run `qlmanage -r` in Terminal to refresh.
 
 To uninstall, drag QLWaveForm into the trash.
